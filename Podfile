@@ -22,5 +22,5 @@ AutoPkgr.each { |t|
 target "com.lindegroup.AutoPkgr.helper" do
     pod 'AHLaunchCtl', :git => 'https://github.com/eahrold/AHLaunchCtl.git'
     pod 'AHKeychain', '~> 0.3.0'
-    pod 'RNCryptor', '~> 2.2'
+    pod 'RNCryptor-objc', '~> 3.0.6'
 end
